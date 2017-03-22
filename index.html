@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Canvas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <div class="field">
+    <div class="turn"><p>Turn = <span class="turn__symbol" id="js-turn">&#x25EF;</span></p></div>
+    <div class="top-row">
+      <canvas id="canvas-tl" width="200" height="200" style="border:1px solid #000000;"">
+      </canvas>
+      <canvas id="canvas-tm" width="200" height="200" style="border:1px solid #000000;">
+      </canvas>
+       <canvas id="canvas-tr" width="200" height="200" style="border:1px solid #000000;">
+      </canvas>
+    </div>
+    <div class="middle-row">
+      <canvas id="canvas-ml" width="200" height="200" style="border:1px solid #000000;">
+      </canvas>
+      <canvas id="canvas-mm" width="200" height="200" style="border:1px solid #000000;">
+      </canvas>
+      <canvas id="canvas-mr" width="200" height="200" style="border:1px solid #000000;">
+      </canvas>
+    </div>
+    <div class="bottom-row">
+      <canvas id="canvas-bl" width="200" height="200" style="border:1px solid #000000;">
+      </canvas>
+      <canvas id="canvas-bm" width="200" height="200" style="border:1px solid #000000;">
+      </canvas>
+      <canvas id="canvas-br" width="200" height="200" style="border:1px solid #000000;">
+    </canvas>
+    </div>
+    <button id="restart">Start Again</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
